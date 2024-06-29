@@ -11,7 +11,7 @@ module.exports = {
             name:  'carts',
             filename: 'remoteEntry.js',
             exposes: {
-                './CartsShow': './src/index'
+                './CartsShow': './src/bootstrap'
             },
             shared: ['faker']
         }),
