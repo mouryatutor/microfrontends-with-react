@@ -11,7 +11,7 @@ module.exports = {
             name:  'carts',
             filename: 'remoteEntry.js',
             exposes: {
-                './CartsIndex': './src/index'
+                './CartsShow': './src/index'
             }
         }),
         new HtmlWebpackPlugin({
